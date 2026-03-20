@@ -17,8 +17,8 @@ const MAIN_CHANNEL_ID = -1003543718769; // numeric ID (not string)
 const CHAT_GROUP = "https://t.me/earning_hub_number_channel";
 const CHAT_GROUP_ID = -1003875142184; // your group exact ID
 
-const OTP_GROUP = "https://t.me/earning_hub_otp_group";
-const OTP_GROUP_ID = -1003796890472; // your OTP group exact ID
+const OTP_GROUP = "https://t.me/EarningHub_otp";
+const OTP_GROUP_ID = -1003247504066; // your OTP group exact ID
 
 /******************** FILES ********************/
 // Railway Volume support - data persists across restarts
@@ -922,7 +922,7 @@ bot.use(async (ctx, next) => {
             inline_keyboard: [
               [{ text: "1️⃣ 📢 Main Channel", url: "https://t.me/earning_hub_official_channel" }],
               [{ text: "2️⃣ 🌐 Number Channel", url: "https://t.me/earning_hub_number_channel" }],
-              [{ text: "3️⃣ 📨 OTP Group", url: "https://t.me/earning_hub_otp_group" }],
+              [{ text: "3️⃣ 📨 OTP Group", url: "https://t.me/EarningHub_otp" }],
               [{ text: "✅ VERIFY", callback_data: "verify_user" }]
             ]
           }
@@ -943,7 +943,7 @@ bot.use(async (ctx, next) => {
           inline_keyboard: [
             [{ text: "1️⃣ 📢 Main Channel", url: "https://t.me/earning_hub_official_channel" }],
             [{ text: "2️⃣ 🌐 Number Channel", url: "https://t.me/earning_hub_number_channel" }],
-            [{ text: "3️⃣ 📨 OTP Group", url: "https://t.me/earning_hub_otp_group" }],
+            [{ text: "3️⃣ 📨 OTP Group", url: "https://t.me/EarningHub_otp" }],
             [{ text: "✅ VERIFY", callback_data: "verify_user" }]
           ]
         }
